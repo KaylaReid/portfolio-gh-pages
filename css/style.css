@@ -166,16 +166,16 @@ File Description:Main css file of the template
     line-height: 23px;
 }
 .mfp-close-btn-in .mfp-close {
-    position: absolute;
+    /* position: absolute;
     background: rgba(0, 0, 0, 0.445);
     border-radius: 50%;
     margin: .1em;
     font-size: 40px;
     width: 50px;
     height: 50px;
-    opacity: 1;
-    color: #FE6883;
-    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.2);
+    opacity: 1; */
+    color: transparent;
+    /* box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.2); */
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,500,600');
@@ -244,17 +244,33 @@ button {
     display: block;
 }
 
-.githubSVG {
-    height: 1.2em;
-    width: 1.2em;
+.logo-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.linkedinSVG {
-    height: 1.2em;
-    width: 1.2em;
-    margin-left: .5em;
+.logo {
+    align-items: center;
 }
 
+.img {
+    width: 8em;
+    height: 8em;
+    padding: .3em;
+}
+.img-s {
+    width: 7em;
+    height: 7em;
+    padding: .3em;
+}
+.padding-bottom {
+    padding-bottom: 2em;
+}
+
+/* .last-row {
+    align-self: center;
+} */
 /*==================
     02.HELPER
 ====================*/
@@ -489,10 +505,11 @@ button {
     position: relative;
     background-size: cover;
     background-position: center center;
+    background-position-y: -450px;
 }
 
 .home_title {
-    margin-top: 4.3em;
+    margin-top: 5em;
     font-size: 42px;
     text-transform: capitalize;
     font-weight: 600;
@@ -882,3 +899,7 @@ button {
         height: auto;
     }
 }
+
+/* .svg-img {
+    height: 300px !important;
+} */
