@@ -348,6 +348,7 @@ button {
     -webkit-justify-content: center;
     flex-direction: row;
     -webkit-flex-direction: row;
+    box-shadow: #757575bd 1px 1px 2px;
 }
 
 .section_all {
@@ -807,9 +808,10 @@ button {
 ==================*/
 
 .footer_content {
-    padding: 70px 0px;
+    /* padding: 70px 0px; */
     background: rgba(211, 211, 211, 0.795);
-    height: 1em;
+    height: 6em;
+    padding-top: 1em;
 }
 
 .footer_content .footer-alt p {
