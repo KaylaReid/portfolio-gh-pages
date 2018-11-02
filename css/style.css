@@ -41,6 +41,7 @@ File Description:Main css file of the template
 .portfolio-area {
     overflow: hidden;
     background: #f8f8f8;
+    box-shadow: lightgray 2px 2px 2px;
     padding: 2em 0 2em 0;
 }
 .grid-item {
@@ -548,6 +549,18 @@ button {
     padding-right: 15px;
 }
 
+.contact-div {
+    display: flex;
+}
+
+.button {
+    margin-left: 5em;
+}
+
+.contact-details {
+    padding: .5em 0 .5em 0;
+}
+
 
 /*====================
    0.6  SERVICES
@@ -795,6 +808,8 @@ button {
 
 .footer_content {
     padding: 70px 0px;
+    background: rgba(211, 211, 211, 0.795);
+    height: 1em;
 }
 
 .footer_content .footer-alt p {
