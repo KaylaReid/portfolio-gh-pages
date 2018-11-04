@@ -40,8 +40,8 @@ File Description:Main css file of the template
 }
 .portfolio-area {
     overflow: hidden;
-    background: #f8f8f8;
-    box-shadow: lightgray 2px 2px 2px;
+    background: #e6e6e6d0;
+    box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
     padding: 2em 0 2em 0;
 }
 .grid-item {
@@ -252,25 +252,26 @@ button {
 
 .logo {
     align-items: center;
+    text-align: center;
+    word-wrap: break-word;
 }
 
 .img {
-    width: 8em;
-    height: 8em;
-    padding: .3em;
-}
-.img-s {
     width: 7em;
     height: 7em;
     padding: .3em;
 }
+
 .padding-bottom {
     padding-bottom: 2em;
 }
 
-/* .last-row {
-    align-self: center;
-} */
+#center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+}
 /*==================
     02.HELPER
 ====================*/
@@ -369,8 +370,9 @@ button {
 
 .section_all {
     position: relative;
-    padding-top: 80px;
+    padding-top: 2em;
     padding-bottom: 80px;
+    /* box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1); */
 }
 
 .section_subtitle {
@@ -826,7 +828,7 @@ button {
 
 .footer_content {
     /* padding: 70px 0px; */
-    background: rgba(211, 211, 211, 0.795);
+    background:  #f2f2f2;
     height: 6em;
     padding-top: 1em;
 }
@@ -899,7 +901,3 @@ button {
         height: auto;
     }
 }
-
-/* .svg-img {
-    height: 300px !important;
-} */
