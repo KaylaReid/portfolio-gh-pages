@@ -272,6 +272,17 @@ button {
     justify-content: center;
     margin: 0;
 }
+
+@media screen and (max-width: 740px) and (min-width: 200px) {
+    .contact-div  {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.exp {
+    min-height: 15em !important;
+}
 /*==================
     02.HELPER
 ====================*/
