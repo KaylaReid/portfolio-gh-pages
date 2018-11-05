@@ -305,6 +305,20 @@ button {
     min-height: 18.5em !important;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.34);
 }
+
+.pic {
+    display: flex;
+    /* margin-top: 0; */
+    /* justify-content: flex-start;  */
+    flex-direction: column;
+    padding-top: 1.5em;
+}
+.pic img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.34);
+}
 /*==================
     02.HELPER
 ====================*/
@@ -392,13 +406,14 @@ button {
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    -webkit-align-items: center;
+    /* align-items: center; */
+    /* -webkit-align-items: center; */
     justify-content: center;
     -webkit-justify-content: center;
     flex-direction: row;
     -webkit-flex-direction: row;
     box-shadow: #757575bd 1px 1px 2px;
+    padding: 1em 0 0 1em;
 }
 
 .section_all {
