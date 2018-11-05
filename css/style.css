@@ -213,6 +213,7 @@ a:focus,
 button {
     text-decoration: none !important;
     outline: none !important;
+    
 }
 
 ::selection {
@@ -351,9 +352,10 @@ button {
     transition: all 0.5s;
     letter-spacing: 0.6px;
     color: #fff;
-    box-shadow: none !important;
+    /* box-shadow: none !important; */
     text-transform: uppercase;
     outline: none !important;
+    
 }
 
 .btn_round {
@@ -363,6 +365,7 @@ button {
 .btn_custom {
     border: 1px solid #e65f78;
     background-color: #e65f78;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.34);
 }
 
 .btn_custom:hover,
