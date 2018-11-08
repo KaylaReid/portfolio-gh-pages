@@ -1,1 +1,0 @@
-console.log("Hello! I hope you enjoy my personal site! -Kayla Reid")
