@@ -166,16 +166,16 @@ File Description:Main css file of the template
     line-height: 23px;
 }
 .mfp-close-btn-in .mfp-close {
-    /* position: absolute;
+    position: absolute;
     background: rgba(0, 0, 0, 0.445);
     border-radius: 50%;
     margin: .1em;
     font-size: 40px;
-    width: 50px;
-    height: 50px;
-    opacity: 1; */
-    color: transparent;
-    /* box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.2); */
+    width: 45px;
+    height: 45px;
+    opacity: 1;
+    color: black;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,500,600');
