@@ -13,8 +13,7 @@
     
     'use strict';
     
-    
-    console.log("Hello! I hope you enjoy my personal site! -Kayla Reid")
+
 
     function initNavbarStickey() {
         $(window).on('scroll', function() {
@@ -151,10 +150,10 @@
     }
     init();
 
-    //======= MAGNIDIC POPUP JS  ========//
-    $('.work-item').magnificPopup({
-        type:'inline'
-    });
+    // //======= MAGNIDIC POPUP JS  ========//
+    // $('.work-item').magnificPopup({
+    //     type:'inline'
+    // });
 
 
 })(jQuery)
