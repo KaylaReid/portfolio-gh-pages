@@ -698,7 +698,7 @@ button {
     margin: 3px;
 }
 
-#owl_clients .item img {}
+/* #owl_clients .item img {} */
 
 .client_box img {
     max-width: 100px;

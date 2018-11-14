@@ -38,11 +38,11 @@
         });
     }
 
-    function initScrollspy() {
-        $("#navbarCollapse").scrollspy({
-            offset: 20
-        });
-    }
+    // function initScrollspy() {
+    //     $("#navbarCollapse").scrollspy({
+    //         offset: 20
+    //     });
+    // }
 
     function initNavbarToggler() {
         var scroll = $(window).scrollTop();
@@ -140,7 +140,7 @@
     function init() {
         initNavbarStickey();
         initSmoothLink();
-        initScrollspy();
+        // initScrollspy();
         initNavbarToggler();
         initPreloader();
         initproject();
@@ -149,11 +149,6 @@
         initBacktoTop();
     }
     init();
-
-    // //======= MAGNIDIC POPUP JS  ========//
-    // $('.work-item').magnificPopup({
-    //     type:'inline'
-    // });
 
 
 })(jQuery)
