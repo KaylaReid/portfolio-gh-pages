@@ -24,6 +24,12 @@ File Description:Main css file of the template
 
 *****************/
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
 
 /* ===================================
     08. Portfolio
